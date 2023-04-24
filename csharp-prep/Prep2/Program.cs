@@ -35,8 +35,8 @@ class Program
             Console.Write("You didn't quite pass, but you can take this knowlege and retake the class.");
         }
         else 
-            {
-                Console.WriteLine("You passed, congragulations!");
-            }
+        {
+            Console.Write("You passed, congragulations!");
+        }
     }
 }
