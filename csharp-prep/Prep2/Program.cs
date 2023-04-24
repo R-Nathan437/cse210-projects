@@ -7,39 +7,39 @@ class Program
         Console.WriteLine("Hello Prep2 World!");
         Console.Write("What is your grade percentage? ");
         string x = Console.ReadLine();
-        int number = int.Parse(x);
+        int grade = int.Parse(x);
         int d = 60;
         int c = 70;
         int b = 80; 
         int a = 90;
 
-        if (x < d)
+        if (grade < d)
             {
-                Console.WriteLine("You have an F");
+                Console.Write("You have an F. ");
             }
-        else if (x < c)
+        else if (grade < c)
             {
-                Console.WriteLine("You have an D");
+                Console.Write("You have an D. ");
             }
-        else if (x < b)
+        else if (grade< b)
             {
-                Console.WriteLine("You have an c");
+                Console.Write("You have an C. ");
             }
-        else if (x < a)
+        else if (grade < a)
             {
-                Console.WriteLine("You have an B");
+                Console.Write("You have an B. ");
             }
         else
             {
-                Console.WriteLine("You have an A");
+                Console.Write("You have an A. ");
             }
-        if (x < c)
+        if (grade < c)
             {
-                Console.WriteLine("You didn't quite pass, but you can take this knowlege and retake the class");
+                Console.Write("You didn't quite pass, but you can take this knowlege and retake the class.");
             }
         else 
             {
-                Console.WriteLine("You passed, Congragulations");
+                Console.WriteLine("You passed, congragulations!");
             }
     }
 }
